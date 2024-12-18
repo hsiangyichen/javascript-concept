@@ -137,7 +137,7 @@ arrayForEachBasic(movies, (movie) => {
   console.log(movie);
 });
 
-// 2. same functionality but cleaner
+// 2. same functionality as 1. but cleaner
 function arrayForEachBetter(arr, fn) {
   for (const element of arr) {
     fn(element);
